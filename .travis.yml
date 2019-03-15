@@ -1,4 +1,6 @@
 before_install: cd Exercises/DockerHub
-language: node_js
-node_js:
-  - "8"
+sudo: required
+services:
+  - docker
+script:
+  - docker build -t cloud
