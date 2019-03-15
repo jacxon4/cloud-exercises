@@ -1,7 +1,7 @@
 # Cloud exercises
 Master exercises to test cloud and docker management
 
-# Continuous integration/delivery/deployment
+# Continuous integration/delivery
 [![Build Status](https://travis-ci.com/jacxon4/cloud-exercises.svg?branch=master)](https://travis-ci.com/jacxon4/cloud-exercises)
 
 For testing purposes, there's a TravisCI job running from `DockerHub`sub-project 
