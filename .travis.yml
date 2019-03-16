@@ -1,11 +1,11 @@
-before_install: cd Exercises/DockerHub
+before_install: cd Practice
 sudo: required
 services:
   - docker
 script:
-  - docker build -t cloud .
+  - docker build -t practice .
 
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-  - docker tag cloud $DOCKER_USER/cloud_exercises
-  - docker push $DOCKER_USER/cloud_exercises
+  - docker tag cloud $DOCKER_USER/cloud_practice
+  - docker push $DOCKER_USER/cloud_practice
