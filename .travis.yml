@@ -7,5 +7,5 @@ script:
 
 after_success:
   - docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
-  - docker tag cloud $DOCKER_USER/cloud_practice
+  - docker tag practice $DOCKER_USER/cloud_practice
   - docker push $DOCKER_USER/cloud_practice
