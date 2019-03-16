@@ -7,16 +7,16 @@
 
 ## Practice 1
 
-[X] Create Dockerfile with an ubuntu:18.04 version and NodeJS 10. Expose on 8888 port the application. *STOP* signal must reach application and the container can be started with any kind of process (command).
+- [x] Create Dockerfile with an ubuntu:18.04 version and NodeJS 10. Expose on 8888 port the application. *STOP* signal must reach application and the container can be started with any kind of process (command).
 
 ## Practice 2
 
-[X] Upload image to DockerHub
+- [x] Upload image to DockerHub
 
 ## Practice 3
 
-[X] Build a continuous integration to create the Docker image and upload to Docker Hub after each push to a repository.
+- [x] Build a continuous integration to create the Docker image and upload to Docker Hub after each push to a repository.
 
 ## Practice 4
 
-[ ] Deploy the code into a server through the Docker into an AWS using Terraform
+- [ ] Deploy the code into a server through the Docker into an AWS using Terraform
